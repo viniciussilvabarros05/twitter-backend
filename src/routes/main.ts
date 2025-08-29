@@ -6,7 +6,7 @@ export const mainRouter = Router();
 
 
 mainRouter.post("/auth/signup", authController.signup);
-// mainRouter.post("/auth/signip");
+mainRouter.post("/auth/signin",authController.signin );
 
 // mainRouter.post("/tweet");
 // mainRouter.post("/tweet:id");
